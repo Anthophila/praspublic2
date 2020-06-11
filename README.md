@@ -7,7 +7,7 @@
     assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("r5cd6wmuyil22fwl7yy7tukhtkr5dh3ex6eaw6qmtbfdikdvjlvq")
     assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwejwqtlcznyx5ateua3232d3iq4xx2zt3dinyqyvmvk4my6ctfq")
   end
-
+  
   test "CRC check method returns false for invalid VST_PAT tokens" do
     assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo")
     assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwejwqtlcznyx5ate")
