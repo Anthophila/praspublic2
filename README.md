@@ -20,7 +20,10 @@
     assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("deviceenrollmentwindowshelloforbusinessconfiguration")
 
 
+input: "<Username>redmond\\a.b.c.d</Username><Password>abc123<",
 
+
+"server=europe\\username&54sometextbefore754^pwd>=pas123",
 
 
 http://test.blob.core.windows.net/test/test.vhd?sr=c&si=test&sig=abcdefghijklmnopqrstuvwxyz0123456789%F%2BABCDE%3D
