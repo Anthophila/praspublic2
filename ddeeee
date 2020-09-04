@@ -1,0 +1,166 @@
+Skip to content
+  train-e8b3285d 🐈 github/blob Switch to  Rails 6.1.0.alpha.c774da7 | Ruby 2.7.1
+Search or jump to…
+
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@prneelak 
+dsp-testing
+/
+praspublic2
+2
+0
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+praspublic2
+/
+README.md
+ 
+
+Tabs
+
+8
+
+Soft wrap
+1
+  test "CRC check method returns true for valid VST_PAT tokens" do
+2
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("cfdgksmyyogbj6b6k7tvu6wfgotk453xxadybrrs22g6qekcaw3y")
+3
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("cfdgksmyyogbj6b6k7tvu6wfgotk453xxadybrrs22g6qekcaw3x")
+4
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo2xj5bwpv7vt7ei2l5a7wwfb")
+5
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("nj3ithqqxdghjtxuo6a27lebc4ko5jyqsthyqshtnnlpvowh2oaq")
+6
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("36tbhyubwbvmi3xzek5n7gz2mxxx3ywxoujzjoxtb3ptgdyfauia")
+7
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("r5cd6wmuyil22fwl7yy7tukhtkr5dh3ex6eaw6qmtbfdikdvjlvq")
+8
+    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwejwqtlcznyx5ateua3232d3iq4xx2zt3dinyqyvmvk4my6ctfq")
+9
+  end
+10
+  
+11
+  Finicity.prototype.token = function(){
+12
+ // console.log('>>>>>>>>>>>>.>>>>>>>.>>>>>>>>');
+13
+        var options=
+14
+       {
+15
+       url: 'https://api.finicity.com/aggregation/v2/partners/authentication', //URL to hit
+16
+        //qs: {from: 'blog example', time: +new Date()}, //Query string data
+17
+        //simple:false,
+18
+        method: 'POST',
+19
+        headers: {
+20
+        'Finicity-App-Key' : '4d003c112e66263b9dec7a3dbfa9b5f5',
+21
+        'content-type': 'application/json',
+22
+        'Accept': 'application/json'
+23
+        },
+24
+        json : {
+25
+         partnerId: '2445581452065',
+26
+         partnerSecret: 'xwgcs4LEyu0LBnCOnQvo'
+27
+        }
+28
+    };  
+29
+​
+30
+    
+31
+  test "CRC check method returns false for invalid VST_PAT tokens" do
+32
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo")
+33
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwejwqtlcznyx5ate")
+34
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo2xj5bwpv7vt7ei2l5a7wwf")
+35
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo2xj5bwpv7vt7ei2l5a7wwfr")
+36
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("r5re6wmuyil22fwl7yy7tukhtkr5dh3ex6eaw6qmtbfdikdvjlvq")
+37
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwuiwqtlcznyx5ateua3232d3iq4xx2zt3dinyqyvmvk4my6ctfq")
+38
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("advancedthreatprotectiononboardingdevicesettingstate")
+39
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("windowsinformationprotectionpincharacterrequirements")
+40
+    assert_equal false, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("deviceenrollmentwindowshelloforbusinessconfiguration")
+41
+​
+42
+​
+43
+input: "<Username>redmond\a.b.c.d</Username><Password>abc1233<",
+44
+ 
+45
+​
+46
+"server=europe\username&54sometextbefore754^pwd>=pas1233",
+47
+​
+48
+​
+49
+http://test.blob.core.windows.net/test/test.vhd?sr=c&si=test&sig=abcdefghijklmnopqrstuvwxyz0123456789%F%2BABCDE%3D
+50
+​
+51
+http://test.blob.core.windows.net/test/test.vhd?sr=c&si=test&sig=abcdefghijklmnopqrstuvwxyz01234569%F%2BABCDE%3D
+52
+​
+53
+http://test.blob.core.windows.net/test/test.vhd?sr=c&si=test&sig=abcdefghijklmnopqrstuvwxyz012345678%F%2BABCDE%3D
+54
+​
+@prneelak
+Commit changes
+Commit summary
+Update README.md
+Optional extended description
+Add an optional extended description…
+ Commit directly to the master branch.
+ Create a new branch for this commit and start a pull request. Learn more about pull requests.
+ 
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Report bug
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
