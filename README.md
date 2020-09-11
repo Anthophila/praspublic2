@@ -1,31 +1,11 @@
-  test "CRC check method returns true for valid VST_PAT tokens" do
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("cfdgksmyyogbj6b6k7tvu6wfgotk453xxadybrrs22g6qekcaw3y")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("cfdgksmyyogbj6b6k7tvu6wfgotk453xxadybrrs22g6qekcaw3x")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("67csyuknm2k4azb2q3ktjb7dwnafo2xj5bwpv7vt7ei2l5a7wwfb")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("nj3ithqqxdghjtxuo6a27lebc4ko5jyqsthyqshtnnlpvowh2oaq")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("36tbhyubwbvmi3xzek5n7gz2mxxx3ywxoujzjoxtb3ptgdyfauia")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("r5cd6wmuyil22fwl7yy7tukhtkr5dh3ex6eaw6qmtbfdikdvjlvq")
-    assert_equal true, GitHub::TokenScanning::TokenScanningPostProcessingHelper.valid_vsts_pat_crc?("xwejwqtlcznyx5ateua3232d3iq4xx2zt3dinyqyvmvk4my6ctfq")
-  end
-  ff
-  Finicity.prototype.token = function(){
- // console.log('>>>>>>>>>>>>.>>>>>>>.>>>>>>>>');
-	var options=
-       {
-       url: 'https://api.finicity.com/aggregation/v2/partners/authentication', //URL to hit
-        //qs: {from: 'blog example', time: +new Date()}, //Query string data
-        //simple:false,
-        method: 'POST',
-        headers: {
-        'Finicity-App-Key' : '4d003c112e66263b9dec7a3dbfa9b5f5',
-        'content-type': 'application/json',
-        'Accept': 'application/json'
-        },
-        json : {
-         partnerId: '2445581452065',
-         partnerSecret: 'xwgcs4LEyu0LBnCOnQvo'
-        }
-    };	
+			{input: "AKIAJASUCVAKYZFLWUZA"},
+			{input: "AKIAJRX3QXQ6UBVAJOMQ"},
+			{input: "AKIAIZKL67A5FTDDEUSQ"},
+		},
+		"AWS_SECRET": {
+			{input: "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"},
+			{input: "EXHrK3rin23Et68qjJAhp7gKMMUaqd61B0zuyXrV"},
+			{input: "bSiAY3RJeZMYh+fIms/SMzX2TGvFXwDBdGkn1fDX"},
 
     
   test "CRC check method returns false for invalid VST_PAT tokens" do
