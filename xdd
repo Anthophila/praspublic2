@@ -1,0 +1,12 @@
+		"PROCTORIO_REGISTRATION_KEY": {
+			{input: "PRK4c96f420"},
+			{input: "PRK54b9a45a"},
+			{input: "PRKa2c08c4b"},
+		},
+		"PROCTORIO_CONSUMER_KEY": {
+			{input: "PCK2d71dfaa9cd841e1808be03b81de0107"},
+			{input: "PCK9d6be2665e9c4e7e859e843919636539"},
+			{input: "PCKe16acdff7afe49248aaf3f0987af4955"},
+		},
+		"PROCTORIO_SECRET_KEY": {
+			{input: "PSKfb3517151a2143f2bdc544ab00ff7663"},
