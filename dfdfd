@@ -1,0 +1,6 @@
+		"NPM_TOKEN": {
+			{input: "_authToken = a32ba0a5-a32b-a0a5-a32b-a0a5a32ba0a5"},
+			{input: "NPM_TOKEN=a76c9c68-38eb-4b7d-9d22-30fcc40bc384"},
+			{input: "TRAVIS_NPM_AUTH_TOKEN=\"642a61bb-884c-4f36-aa6c-ed2def6f6e3c\""},
+			{input: "TRAVIS_NPM_AUTH_TOKEN   ='0646cf69-265a-49c2-9fd4-324115bd00cd'"},
+			{input: "travisNpmAuthToken:8575998b-0008-48e7-99b9-b0f799443fda"},
