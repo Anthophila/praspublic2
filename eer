@@ -1,0 +1,9 @@
+				input: "curl 'https://api.finicity.com/aggregation/v2/partners/authentication'\n--header 'Accept: application/json'\n--header 'Content-Type: application/json'\n*--header 'Finicity-App-Key: 604dacc04fd473c50d3766ded9f31b1f'* \n--data-raw '{\"partnerId\": \"<redacted>\", \"partnerSecret\": \"<redacted>\"}",
+
+			},
+			{
+				input: "define(\"__FINICITY_API_KEY__\", \"448f936b64c14ee514cfe101055d6bfc\"}",
+
+			},
+			{input: "Finicity-App-Key' : '4d003c112e66263b9dec7a3dbfa9b5f5"},
+			{input: "finicity.app.key=6f9d1550391d7f92a45837f43ce2f33e"},
