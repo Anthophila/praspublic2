@@ -5,7 +5,7 @@
 				matches: []string{
 					"Finicity-App-Key: 604dacc04fd473c50d3766ded9f31b1f",
 				},
-			},
+			},cc
 			{
 				input: "define(\"__FINICITY_API_KEY__\", \"448f936b64c14ee514cfe101055d6bfc\"}",
 				matches: []string{
