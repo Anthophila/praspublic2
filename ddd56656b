@@ -1,0 +1,19 @@
+			{input: "xoxo-21575374614-66DKNARdweYlzrnHhiKtgBpH"},
+			// xoxb-([0-9]{7,})-([0-9]{7,})-([A-Za-z0-9]{14,})
+			{input: "xoxb-369235392313-402135264013-A74d96kXs9Tuep59PZSWNkdE"},
+		},
+		"SLACK_APP_LEVEL": {
+			{input: "xapp-1-A01225LDDDD-1670597111111-b75fdf8f238fe0d2bfa6022a883ed09d00000000001111111111111111111111"},
+			{input: "xapp-1-D01242KFFFF-1670597222222-a43edf8f138de0d2bfed011a653ed09d11111111110000000000000000000000"},
+		},
+		"SLACK_WEBHOOK": {
+			{input: "https://hooks.slack.com/services/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"},
+			{input: "https://hooks.slack.com/services/T0hjvf1fg/C0VSV3MQT876/80qTgG1wLSFiyAxXCNET30zx"},
+			{input: "https://hooks.slack.com/services/T0HJVF1FGBB9/C0VSV3MQT/80qTgG1wLSFiyAxXCNET30zx"},
+		},
+		"SLACK_WORKFLOW_WEBHOOK": {
+			{input: "https://hooks.slack.com/workflows/TABCDE123/A00000001/283356900064493550/eCwHs0XriFNUHAqG6SxEiYad"},
+			{input: "https://hooks.slack.com/workflows/TABCDE1234/A00000002/283356900064493551/eCwHs0XriFNUHAqG6SxEiYdd"},
+			{input: "https://hooks.slack.com/workflows/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"},
+			{input: "https://hooks.slack.com/workflows/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"},
+		},
