@@ -1,0 +1,16 @@
+			{input: "PCK9d6be2665e9c4e7e859e843919636539"},
+			{input: "PCKe16acdff7afe49248aaf3f0987af4955"},
+		},
+		"PROCTORIO_SECRET_KEY": {
+			{input: "PSKfb3517151a2143f2bdc544ab00ff7663"},
+			{input: "PSK15f87bd8a4304b24af4695afc3438943"},
+			{input: "PSK8df5b03f72f64bd8841c90baa5cf8ea5"},
+      
+      
+      			// token with underscore
+			{input: "nBvy_Yh4P7AAAAAAAAAAkHvHxbBAE3R1Jd7sJh2rWbPCk85-9Dm4UCvYtMn_e1BY"},
+		},
+		"DROPBOX_OAUTH2_SHORT_LIVED_ACCESS_TOKEN": {
+			// shortest possible token
+			{input: "sl.dDkEmoXPeGClikULARyQMz4FQVwAgthNykAfnVrZPRMnYeE8jeuYowEHtt8Hga6YDz3Oxl-BrILAzd-I5ax88uWSlO7UAz5WKXKq52Z645CnSe2RVplxjQJIIlSBm7f4jcLiHxct"},
+			// longest possible token
